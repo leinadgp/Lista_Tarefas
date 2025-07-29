@@ -6,13 +6,7 @@ import { Container, TodoList, Input, Button, ListItem,Lixeira, Check,Paragrafo }
 
 
 function App() {
-  // const listaTarefas = [
-  // { id: uuidv4(), conteudo: "Levar a Loma para passear"}, 
-  // { id: uuidv4(), conteudo: "Comprara Maça" },
-  // { id: uuidv4(), conteudo: "Terminar aulas de React DEV Club" }, 
-  // { id: uuidv4(), conteudo: "nova tarega" },
-  // { id: uuidv4(), conteudo: "teste nova taregaaaaa" }
-  // ],
+ 
   const [imputTask, setImputTask] = useState([])
   const [list, setList] = useState([])
 

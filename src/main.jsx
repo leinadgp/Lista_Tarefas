@@ -1,5 +1,5 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, HashRouter } from 'react-dom/client'
 import {GlobalStyle} from './globalStyles.js'
 import App from './App.jsx'
 
@@ -9,7 +9,8 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <GlobalStyle/>
-    <App />
-    
+      <HashRouter>
+        <App />
+      </HashRouter> 
    </StrictMode>,
 )
