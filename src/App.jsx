@@ -60,11 +60,7 @@ function App() {
           }
         </ul>
       </TodoList>
-
     </Container>
-
-
-
   )
 }
 
