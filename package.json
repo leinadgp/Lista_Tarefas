@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://leinadgp.github.io/Lista_Tarefas",
+  "homepage": "https://leinadgp.github.io/Lista_Tarefas/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
