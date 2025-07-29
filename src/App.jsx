@@ -42,8 +42,10 @@ function App() {
 
     <Container>
       <TodoList>
-        <Input onChange={imputMudou} type="text" placeholder="Digite o que tenho para fazer" />
-        <Button onClick={clickButton}>Adicionar</Button>
+        <div>
+          <Input onChange={imputMudou} type="text" placeholder="Digite o que tenho para fazer" />
+          <Button onClick={clickButton}>Adicionar</Button>
+        </div>  
         <ul>
           
          

@@ -21,12 +21,22 @@ export const TodoList = styled.div`
         padding: 30px 20px;
         border-radius: 5px;
         max-width: 80%;
+        overflow: hidden;
 
    ul{
         padding: 0;
         margin-top: 60px;
        
     }
+   div{
+        display: flex;
+   } 
+
+   @media (max-width: 800px){
+        div {
+                width: 100%;
+        }
+   }
    
 `
 export const Input = styled.input`
@@ -50,6 +60,8 @@ export const Button = styled.button`
         font-size: 17px;
         line-height: 2px;
         font-weight: 900;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
          &:hover {
         opacity: 0.8;
@@ -69,6 +81,7 @@ export const ListItem = styled.div`
         display: flex;
         height: 60px;
         width: 500px;
+        max-width: 90%;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 30px;
