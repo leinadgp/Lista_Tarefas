@@ -12,7 +12,6 @@ Aplicação de lista de tarefas desenvolvida com React. Permite adicionar, remov
 - 🗑️ Remover tarefas individualmente
 - ✔️ Marcar tarefas como concluídas
 - 🎨 Estilo dinâmico com mudança de cor conforme o status (concluído ou não)
-- 💾 Armazenamento local com `localStorage` (se implementado)
 - 📱 Responsivo: funciona bem em desktop e mobile
 
 ## 🛠️ Tecnologias Utilizadas
