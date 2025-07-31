@@ -24,7 +24,7 @@ Aplicação de lista de tarefas desenvolvida com React. Permite adicionar, remov
 - Git & GitHub
 
 # 🌐 Projeto online
-👉 Acesse a [Lista de Tarefas Aqui](https://leinadgp.github.io/projeto_dev_movie/)
+👉 Acesse a [Lista de Tarefas Aqui](https://leinadgp.github.io/Lista_Tarefas/)
 
 
 
